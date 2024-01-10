@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificação-PIN</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <main> 
-        <label for="ipin">PIN</label>
-        <input type="text" name="pin" id="ipin">
-        <button id="buttonVerification">Verificar</button>
+        <form action="" autocomplete="off">
+            <h1>Login</h1>
+            <p>Caro Usuário!</p>
+            <p>Introduza o seu PIN para entrar no sistema</p>
+            <input type="text" name="pin" id="ipin" required>
+            <button type="button" id="buttonVerification">Verificar</button>
+        </form>
+
         
-   </main>
+    </main>
+    <div id="classificacao"> Classificação</div>
+    <button type="button" id="buttonTentar">Tentar novamente</button>
 
 
-    <script src="scripts/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

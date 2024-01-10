@@ -42,5 +42,13 @@ button{
    
 }
 
+div#classificacao{
+    display: none;
+}
+
+button#buttonTentar{
+    display: none;
+}
+
 
 
