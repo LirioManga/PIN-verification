@@ -13,6 +13,7 @@ body{
     background-color:lightgray;
 }
 
+
 main{
    
     position: absolute;
@@ -21,22 +22,39 @@ main{
     transform: translate(-50%, -80%);
     background-color: white;
     
-    width: 200px;
+    width: 220px;
     height: 250px;
     border-radius: 4px;
 }
  
-label{
-    margin-top: 30px;
+h1{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+p{
+   text-align: justify;
+   padding: 10px;
 }
 
 input{
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 100px;
+    height: 30px;
+
+
+    text-align: center;
+    font-size: large;
+   
 }
 
-button{
+button#buttonVerification{
     margin-left:70px;
-    margin-top: 50px;
+    margin-top: 40px;
+  
 
     padding: 8px;
    
