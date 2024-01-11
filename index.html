@@ -8,20 +8,19 @@
 </head>
 <body>
    <main> 
-        <form action="">
+        <form action="" autocomplete="on">
             <h1>Login</h1>
             <p>Caro Usuário! <br>
             Introduza o seu PIN para entrar no sistema</p>
-
-            <input type="text" name="pin" id="ipin" required>
+           
+            <input type="text" name="pin" id="ipin" required minlength="4" maxlength="6">
+            <label for="" id="classificacao"></label>
             <button type="button" id="buttonVerification">Verificar</button>
         </form>
-
+        <button type="button" id="buttonTentar">Tentar novamente</button>
         
+  
     </main>
-    <div id="classificacao"> Classificação</div>
-    <button type="button" id="buttonTentar">Tentar novamente</button>
-
 
     <script src="script.js"></script>
 </body>

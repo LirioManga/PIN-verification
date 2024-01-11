@@ -22,8 +22,8 @@ main{
     transform: translate(-50%, -80%);
     background-color: white;
     
-    width: 220px;
-    height: 250px;
+    width: 240px;
+    height: 290px;
     border-radius: 4px;
 }
  
@@ -40,33 +40,55 @@ p{
 }
 
 input{
-    margin-top: 15px;
-    margin-left: 50px;
+
     width: 100px;
     height: 30px;
+    margin-top: 25px;
+    margin-left: 65px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    outline: none;
 
 
     text-align: center;
     font-size: large;
+    text-decoration: none;
    
 }
 
 button#buttonVerification{
-    margin-left:70px;
-    margin-top: 40px;
+    margin-left:80px;
+    margin-top: 50px;
   
 
     padding: 8px;
    
 }
 
+button#buttonTentar{
+    margin-left:60px;
+    margin-top: 50px;
+  
+
+    padding: 8px;
+    display: none;
+}
+
 div#classificacao{
     display: none;
 }
 
-button#buttonTentar{
+
+label#classificacao{
     display: none;
+    font-size: 12px;
+    color: red; 
+    font-style: italic;
+
+    text-align: center;
+    margin-top: 5px;
+
 }
-
-
 
