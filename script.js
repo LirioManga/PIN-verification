@@ -21,6 +21,8 @@ function verificarPin(){
         input.style.borderColor ='red';
         input.focus();
 
+    }else if(inputPin.length < 4 || inputPin.length > 4){
+        alert("O PIN deve conter 4 dígitos");
     }
 
     if(pin > 999){
